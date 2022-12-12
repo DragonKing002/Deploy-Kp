@@ -11,14 +11,14 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar">
+        <nav className="navbar" id="navbar-id">
             <img className="navbar-logo" src={logo} alt="" />
             <ul className={click ? "navbar-menu active" : "navbar-menu"}>
                 <li>
-                    <a href="#" className="navbar-menu-links">หน้าหลัก</a>
+                    <a href="#slide-main" className="navbar-menu-links">หน้าหลัก</a>
                 </li>
                 <li>
-                    <a href="#" className="navbar-menu-links">แผนที่</a>
+                    <a href="#location-map" className="navbar-menu-links">แผนที่</a>
                 </li>
                 <li>
                     <a href="#" className="navbar-menu-links">โปรโมทชั่น</a>
